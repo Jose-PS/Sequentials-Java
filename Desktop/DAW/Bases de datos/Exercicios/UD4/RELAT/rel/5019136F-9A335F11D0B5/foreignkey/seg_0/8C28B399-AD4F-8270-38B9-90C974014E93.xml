@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8C28B399-AD4F-8270-38B9-90C974014E93" containerWithKeyObject="031443DF-3807-392B-4ED6-F5861F7DDD4C" localFKIndex="13C5CCD9-19EA-A6A2-6ED5-97EEF01AF8AC" name="FK_CODCENTRO">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>FK_CODCENTRO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<referredTableLongName>C##DPTO.CENTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91137B7D-6BEE-6A4B-5C88-0A86B76F976F</referredTableID>
+<keyObject>21F76C37-80E7-0418-B395-055CB5850CFB</keyObject>
+<referredKeyID>21F76C37-80E7-0418-B395-055CB5850CFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODCENTRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

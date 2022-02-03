@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="C##DPTO" directorySegmentName="seg_0" id="35F5AB32-6551-B634-66B4-A5E8510FD3DF">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</SchemaObject>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB87717A-2C16-2934-68F5-07A7CD8BE3C2" containerWithKeyObject="6846F8CB-BAB6-FC81-3EE6-0784CF34478E" localFKIndex="92F9B078-6D97-9A9E-DCEE-8E9A80487251" name="FK_CODDPTO">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>FK_CODDPTO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<referredTableLongName>C##DPTO.DPTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>031443DF-3807-392B-4ED6-F5861F7DDD4C</referredTableID>
+<keyObject>2CA7063F-385C-0F46-BD18-657A0E0612A8</keyObject>
+<referredKeyID>2CA7063F-385C-0F46-BD18-657A0E0612A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODDPTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

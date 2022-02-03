@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLEADO" directorySegmentName="seg_0" id="6846F8CB-BAB6-FC81-3EE6-0784CF34478E">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<schemaObject>35F5AB32-6551-B634-66B4-A5E8510FD3DF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>82118B9A-1E12-37A2-2931-3F7DA4A45FCF</segment>
+<tableSpace>F8E2AA4F-1D5E-57C5-C00C-CD695392F2FB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="APE2" id="04CA6D89-E410-6429-280D-B29AF0526FF8">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMISION" id="297538B4-D9A6-5D24-A27C-0DE5E60A19AD">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCALIDAD" id="491BC781-5620-3C1A-E519-558D08546421">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODCATE" id="4CD79C36-7BB6-4C9E-89FA-7EF6EB42B116">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="55408C71-6110-1228-7607-932063ACEAA6">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APE1" id="724A1924-FAB8-F9F3-1E49-A9219D677EF0">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODEMPLE" id="76BCC641-4E77-5550-AB40-63D38248E8C2">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="8605845C-7D23-AFCC-CF2E-3291B8F325D0">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEF" id="AFF27DD1-3FF4-E290-F8D9-901C85112AF2">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARIO" id="BC853C5D-D2D1-A2EE-66A9-3052F60BA1CF">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAINGRESO" id="C708EF0D-8F42-EFB4-98A7-E45B2C650D7C">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODDPTO" id="D23FB84A-AF8B-434E-21F1-E7976344F811">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CODEMPLE" id="4775C716-4F5D-8AA8-DF81-59791F3A18B9">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<schemaObject>35F5AB32-6551-B634-66B4-A5E8510FD3DF</schemaObject>
+<segment>E0A6D980-BD10-1DB5-A415-84497C927EEF</segment>
+<tableSpace>F8E2AA4F-1D5E-57C5-C00C-CD695392F2FB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CODDPTO" id="92F9B078-6D97-9A9E-DCEE-8E9A80487251">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CODCATE" id="B300BF9F-4ADC-D559-0AB1-10CC8984C9EE">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CODEMPLE" id="2EDA4FAD-6887-77F8-D085-8FA3DF7D19F8">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<segment>E0A6D980-BD10-1DB5-A415-84497C927EEF</segment>
+<tableSpace>F8E2AA4F-1D5E-57C5-C00C-CD695392F2FB</tableSpace>
+<existingIndex>4775C716-4F5D-8AA8-DF81-59791F3A18B9</existingIndex>
+<indexSegment>E0A6D980-BD10-1DB5-A415-84497C927EEF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

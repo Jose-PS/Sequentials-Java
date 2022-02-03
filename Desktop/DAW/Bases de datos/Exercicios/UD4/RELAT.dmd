@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RELAT" id="4296F7F7-DC1E-810E-7C43-10D0620D784E" version="3.5">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:38:16 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4296F7F7-DC1E-810E-7C43-10D0620D784E</designId>
+</OSDM_Design>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DPTO" directorySegmentName="seg_0" id="031443DF-3807-392B-4ED6-F5861F7DDD4C">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<schemaObject>35F5AB32-6551-B634-66B4-A5E8510FD3DF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>82118B9A-1E12-37A2-2931-3F7DA4A45FCF</segment>
+<tableSpace>F8E2AA4F-1D5E-57C5-C00C-CD695392F2FB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DENOMINACION" id="4557904E-B643-7327-8734-3482E7BB5F5B">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODEMPLEJEFE" id="4C1EF48D-47CB-F446-3FDF-46E4EFFE2227">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODCENTRO" id="4D839B05-4E9B-A7FE-B601-8E66C8E9964E">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO" id="6010F869-0293-FAD3-9724-AC223914371D">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRESUPUESTO" id="63B8F603-3010-82FA-B2B4-7A6615D36790">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODDPTO" id="A87408B2-7932-8501-6FA4-FCF85E549F0C">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODDPTODEPENDE" id="FB0F9725-292E-7E84-AD0B-A7328F0F4CB3">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CODDPTO" id="21F6723F-B5B1-BAAC-C67E-1A90B9C5D81A">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<schemaObject>35F5AB32-6551-B634-66B4-A5E8510FD3DF</schemaObject>
+<segment>E0A6D980-BD10-1DB5-A415-84497C927EEF</segment>
+<tableSpace>F8E2AA4F-1D5E-57C5-C00C-CD695392F2FB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CODDPTODEPENDE" id="072AE909-16CC-7434-E359-A2CF773B6421">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CODCENTRO" id="13C5CCD9-19EA-A6A2-6ED5-97EEF01AF8AC">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CODEMPLEJEFE" id="47F41A5B-0085-CE88-6D90-649954F6CDDD">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CODDPTO" id="2CA7063F-385C-0F46-BD18-657A0E0612A8">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<segment>E0A6D980-BD10-1DB5-A415-84497C927EEF</segment>
+<tableSpace>F8E2AA4F-1D5E-57C5-C00C-CD695392F2FB</tableSpace>
+<existingIndex>21F6723F-B5B1-BAAC-C67E-1A90B9C5D81A</existingIndex>
+<indexSegment>E0A6D980-BD10-1DB5-A415-84497C927EEF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

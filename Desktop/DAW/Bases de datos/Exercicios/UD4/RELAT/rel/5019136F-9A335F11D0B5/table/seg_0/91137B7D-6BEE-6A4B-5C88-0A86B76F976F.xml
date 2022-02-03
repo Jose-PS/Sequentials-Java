@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91137B7D-6BEE-6A4B-5C88-0A86B76F976F" schemaObject="35F5AB32-6551-B634-66B4-A5E8510FD3DF" name="CENTRO">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>CENTRO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODCENTRO" id="AAB3F92F-5969-E648-3B53-58068C0947F2">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>CENTRO</sourceObjSchema>
+<sourceObjName>CODCENTRO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="529F46B0-9EED-56A9-E8E3-EE37326A3A08">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>CENTRO</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALIDAD" id="06D6A9C2-6739-AFAE-DC08-1FC1E3FFB081">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>CENTRO</sourceObjSchema>
+<sourceObjName>LOCALIDAD</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21F76C37-80E7-0418-B395-055CB5850CFB" name="PK_CODCENTRO">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>PK_CODCENTRO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAB3F92F-5969-E648-3B53-58068C0947F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57B40123-5550-635C-3E15-010FD0E7A9C9" schemaObject="35F5AB32-6551-B634-66B4-A5E8510FD3DF" name="PK_CODCENTRO">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>PK_CODCENTRO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAB3F92F-5969-E648-3B53-58068C0947F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B4B566C-9015-0770-9400-410472DF47EA" containerWithKeyObject="6846F8CB-BAB6-FC81-3EE6-0784CF34478E" localFKIndex="B300BF9F-4ADC-D559-0AB1-10CC8984C9EE" name="FK_CODCATE">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>FK_CODCATE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<referredTableLongName>C##DPTO.CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BFEDB5FA-9D16-8254-595F-DE74874D7107</referredTableID>
+<keyObject>E85B5BC2-882A-71BC-3142-3372FC553010</keyObject>
+<referredKeyID>E85B5BC2-882A-71BC-3142-3372FC553010</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODCATE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

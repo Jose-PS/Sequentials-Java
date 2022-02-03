@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CENTRO" directorySegmentName="seg_0" id="91137B7D-6BEE-6A4B-5C88-0A86B76F976F">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<schemaObject>35F5AB32-6551-B634-66B4-A5E8510FD3DF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>82118B9A-1E12-37A2-2931-3F7DA4A45FCF</segment>
+<tableSpace>F8E2AA4F-1D5E-57C5-C00C-CD695392F2FB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOCALIDAD" id="06D6A9C2-6739-AFAE-DC08-1FC1E3FFB081">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="529F46B0-9EED-56A9-E8E3-EE37326A3A08">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODCENTRO" id="AAB3F92F-5969-E648-3B53-58068C0947F2">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CODCENTRO" id="57B40123-5550-635C-3E15-010FD0E7A9C9">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<schemaObject>35F5AB32-6551-B634-66B4-A5E8510FD3DF</schemaObject>
+<segment>E0A6D980-BD10-1DB5-A415-84497C927EEF</segment>
+<tableSpace>F8E2AA4F-1D5E-57C5-C00C-CD695392F2FB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CODCENTRO" id="21F76C37-80E7-0418-B395-055CB5850CFB">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<segment>E0A6D980-BD10-1DB5-A415-84497C927EEF</segment>
+<tableSpace>F8E2AA4F-1D5E-57C5-C00C-CD695392F2FB</tableSpace>
+<existingIndex>57B40123-5550-635C-3E15-010FD0E7A9C9</existingIndex>
+<indexSegment>E0A6D980-BD10-1DB5-A415-84497C927EEF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,244 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6846F8CB-BAB6-FC81-3EE6-0784CF34478E" schemaObject="35F5AB32-6551-B634-66B4-A5E8510FD3DF" name="EMPLEADO">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>EMPLEADO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODEMPLE" id="76BCC641-4E77-5550-AB40-63D38248E8C2">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>CODEMPLE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APE1" id="724A1924-FAB8-F9F3-1E49-A9219D677EF0">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>APE1</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APE2" id="04CA6D89-E410-6429-280D-B29AF0526FF8">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>APE2</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="8605845C-7D23-AFCC-CF2E-3291B8F325D0">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="55408C71-6110-1228-7607-932063ACEAA6">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALIDAD" id="491BC781-5620-3C1A-E519-558D08546421">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>LOCALIDAD</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEF" id="AFF27DD1-3FF4-E290-F8D9-901C85112AF2">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>TELEF</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODDPTO" id="D23FB84A-AF8B-434E-21F1-E7976344F811">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>CODDPTO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB87717A-2C16-2934-68F5-07A7CD8BE3C2" referredColumn="A87408B2-7932-8501-6FA4-FCF85E549F0C"/>
+</associations>
+</Column>
+<Column name="CODCATE" id="4CD79C36-7BB6-4C9E-89FA-7EF6EB42B116">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>CODCATE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B4B566C-9015-0770-9400-410472DF47EA" referredColumn="EEF9A389-9A49-2A92-BCCA-E14309B7DAAA"/>
+</associations>
+</Column>
+<Column name="FECHAINGRESO" id="C708EF0D-8F42-EFB4-98A7-E45B2C650D7C">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>FECHAINGRESO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="BC853C5D-D2D1-A2EE-66A9-3052F60BA1CF">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>SALARIO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMISION" id="297538B4-D9A6-5D24-A27C-0DE5E60A19AD">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>COMISION</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EDA4FAD-6887-77F8-D085-8FA3DF7D19F8" name="PK_CODEMPLE">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>PK_CODEMPLE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76BCC641-4E77-5550-AB40-63D38248E8C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4775C716-4F5D-8AA8-DF81-59791F3A18B9" schemaObject="35F5AB32-6551-B634-66B4-A5E8510FD3DF" name="PK_CODEMPLE">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>PK_CODEMPLE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76BCC641-4E77-5550-AB40-63D38248E8C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B300BF9F-4ADC-D559-0AB1-10CC8984C9EE" name="FK_CODCATE">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CD79C36-7BB6-4C9E-89FA-7EF6EB42B116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92F9B078-6D97-9A9E-DCEE-8E9A80487251" name="FK_CODDPTO">
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D23FB84A-AF8B-434E-21F1-E7976344F811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

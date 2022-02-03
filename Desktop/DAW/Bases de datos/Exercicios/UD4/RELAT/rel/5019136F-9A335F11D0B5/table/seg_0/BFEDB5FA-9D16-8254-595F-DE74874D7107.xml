@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFEDB5FA-9D16-8254-595F-DE74874D7107" schemaObject="35F5AB32-6551-B634-66B4-A5E8510FD3DF" name="CATEGORIA">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>CATEGORIA</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODCATE" id="EEF9A389-9A49-2A92-BCCA-E14309B7DAAA">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>CODCATE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DENOM" id="2CC8037E-408A-3D94-2DF7-B13E81EB833C">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>DENOM</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JULIO" id="6F5165AF-2F8B-1A8B-D62C-1E2CD085AF10">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>JULIO</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DICIEMBRE" id="89377DC3-544C-79D4-BADF-871475EC6C34">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>DICIEMBRE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:30 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E85B5BC2-882A-71BC-3142-3372FC553010" name="PK_CODCATE">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>PK_CODCATE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEF9A389-9A49-2A92-BCCA-E14309B7DAAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FDB0FCE-C3E4-5B3B-7848-879A40DDC646" schemaObject="35F5AB32-6551-B634-66B4-A5E8510FD3DF" name="PK_CODCATE">
+<sourceConnName>dpto</sourceConnName>
+<sourceObjSchema>C##DPTO</sourceObjSchema>
+<sourceObjName>PK_CODCATE</sourceObjName>
+<createdBy>DAW</createdBy>
+<createdTime>2022-02-03 11:39:31 UTC</createdTime>
+<ownerDesignName>RELAT</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEF9A389-9A49-2A92-BCCA-E14309B7DAAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
