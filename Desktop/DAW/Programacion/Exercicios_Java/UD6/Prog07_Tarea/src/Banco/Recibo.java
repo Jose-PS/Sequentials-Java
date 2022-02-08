@@ -11,5 +11,28 @@ package Banco;
 public class Recibo {
     private String entidad;
     private double importe;
+
+    public Recibo(String entidad, double importe) {
+        this.entidad = entidad;
+        this.importe = importe;
+    }
+
+    public String getEntidad() {
+        return entidad;
+    }
+
+    public void setEntidad(String entidad) {
+        this.entidad = entidad;
+    }
+
+    public double getImporte() {
+        return importe;
+    }
+
+    public void setImporte(double importe) {
+        this.importe = importe;
+    }
+    
+    
     
 }

@@ -18,6 +18,14 @@ public abstract class ContaCorrente extends ContaBancaria {
         super(titular, saldo, iban, tipoConta);
     }
 
-    
+    public boolean cobraRecibo (Recibo r){
+        for (String listaEntidade : listaEntidades) {
+            if (r.getEntidad().equals(listaEntidade)) {
+                saldo=saldo-r.getImporte();
+                return true;
+            }
+        }
+        return false;
+    }
 
 }
