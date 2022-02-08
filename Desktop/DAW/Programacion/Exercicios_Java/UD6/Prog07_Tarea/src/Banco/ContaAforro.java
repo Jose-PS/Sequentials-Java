@@ -14,15 +14,15 @@ public class ContaAforro extends ContaBancaria {
 
     private double tipoInteres;
 
-    public ContaAforro(Persoa titular, double saldo, String numCuenta, double tipoInteres, TipoConta tipoConta) {
-        super(titular, saldo, numCuenta, tipoConta);
+    public ContaAforro(Persoa titular, double saldo, String iban, double tipoInteres, TipoConta tipoConta) {
+        super(titular, saldo, iban, tipoConta);
         this.tipoInteres = tipoInteres;
     }
 
     @Override
     public String devolverInfoString() {
         return "Titular: " + titular.devolverInfoString() + "\n"
-                + "Numero: " + numCuenta + ", Tipo Interes: " + tipoInteres+ "Tipo de conta: " + tipoConta+", Saldo: "+saldo;
+                + "Numero: " + iban + ", Tipo Interes: " + tipoInteres+ "Tipo de conta: " + tipoConta+", Saldo: "+saldo;
     }
 
 }

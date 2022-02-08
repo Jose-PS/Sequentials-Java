@@ -16,8 +16,8 @@ public class ContaEmpresa extends ContaCorrente {
     private double maxDesc;
     private double comisionDesc;
 
-    public ContaEmpresa(Persoa titular, double saldo, String numCuenta, double maxDesc, double interesDesc, double comisionDesc, TipoConta tipoConta) {
-        super(titular, saldo, numCuenta, tipoConta);
+    public ContaEmpresa(Persoa titular, double saldo, String iban, double maxDesc, double interesDesc, double comisionDesc, TipoConta tipoConta) {
+        super(titular, saldo, iban, tipoConta);
         this.interesDesc = interesDesc;
         this.maxDesc = maxDesc;
         this.comisionDesc = comisionDesc;
@@ -28,7 +28,7 @@ public class ContaEmpresa extends ContaCorrente {
     @Override
     public String devolverInfoString() {
         return "Titular: "+titular.devolverInfoString()+"\n"
-                + "Numero: "+numCuenta+", Maximo Descuberto: "+maxDesc+", Tipo Interes Descuberto: "+interesDesc+"\n"
+                + "Numero: "+iban+", Maximo Descuberto: "+maxDesc+", Tipo Interes Descuberto: "+interesDesc+"\n"
                 + "Comision Descuberto: "+comisionDesc+"Tipo de conta: "+tipoConta+", Saldo: "+saldo;
     }
 

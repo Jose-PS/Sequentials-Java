@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Principal;
 
 import Banco.Banco;
@@ -27,7 +24,7 @@ public class Principal {
         String iban;
         String lista[];
         double cant;
-        Menu m = new Menu("Banco do Hio, escolle unha opcion.", new String[]{"(A)brir nova conta.", "(V)er listado de contas.", "(O)bter datos dunha conta.", "(I)ngresar efectivo en conta.", "(R)etirar efectivo de conta.", "(C)onsultar saldo en conta.", "(S)air."}, "AVOIRCSavoircs");
+        Menu m = new Menu("Banco do Hio, escolle unha opcion.", new String[]{"(A)brir nova conta.", "(V)er listado de contas.", "(O)bter datos dunha conta.", "(I)ngresar efectivo en conta.", "(R)etirar efectivo de conta.", "(C)onsultar saldo en conta.", "(S)air."}, "avoircs");
         do {
             opt = m.getOpcion();
             switch (opt) {
@@ -104,21 +101,18 @@ public class Principal {
     }
 
     public int[] getTipo() {
-        int escolle;
+        char escolle;
         int[] opts = null;
-        System.out.println("Que tipo de conta queres crear?");
-        System.out.println("1. Conta de empresa.");
-        System.out.println("2. Conta persoal.");
-        System.out.println("3. Conta de aforro.");
-        escolle = Integer.parseInt(lec.nextLine());
-        if (escolle == 1) {
+        Menu m = new Menu ("Que tipo de conta desexas crear?",new String [] {"Conta de (E)mpresa", "Conta (P)ersoal", "Conta de (A)forro"}, "epa", Menu.Direccion.HORIZONTAL );
+        escolle = m.getOpcion();
+        if (escolle == 'e') {
             tipoConta = "empresa";
             opts = new int[]{0, 1, 4, 5, 6
             };
-        } else if (escolle == 2) {
+        } else if (escolle == 'p') {
             tipoConta = "persoal";
             opts = new int[]{0, 1, 3};
-        } else if (escolle == 3) {
+        } else if (escolle == 'a') {
             tipoConta = "aforro";
             opts = new int[]{0, 1, 2};
         }

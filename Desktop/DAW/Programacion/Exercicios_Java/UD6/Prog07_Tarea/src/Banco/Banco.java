@@ -49,6 +49,11 @@ public class Banco {
      */
     public String informacionConta(String iban) {
         String info = null;
+        for (int i = 0; i < pos; i++) {
+            if (contas [i].getIban().equals(iban)){
+            return contas[i].devolverInfoString();
+            }
+        }
         return info;
     }
 
@@ -60,7 +65,13 @@ public class Banco {
      * @return devolve true ou false en funcion de como saiu a operacion.
      */
     public boolean ingresoConta(String iban, double cant) {
-        return true;
+        for (int i = 0; i < pos; i++) {
+            if (contas [i].getIban().equals(iban)){
+            contas[i].setSaldo(contas[i].getSaldo()+cant);
+            return true;          
+            }
+        }
+        return false;
     }
 
     /**
@@ -71,7 +82,13 @@ public class Banco {
      * @return Devolve true ou false en funcion de como saiu a operacion.
      */
     public boolean retiradaConta(String iban, double cant) {
-        return true;
+        for (int i = 0; i < pos; i++) {
+            if (contas [i].getIban().equals(iban)){
+            contas[i].setSaldo(contas[i].getSaldo()-cant);
+            return true;          
+            }
+        }
+        return false;
     }
 
 }

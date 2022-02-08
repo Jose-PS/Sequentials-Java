@@ -14,8 +14,8 @@ public abstract class ContaCorrente extends ContaBancaria {
 
     private String[] listaEntidades;
 
-    public ContaCorrente(Persoa titular, double saldo, String numCuenta, TipoConta tipoConta) {
-        super(titular, saldo, numCuenta, tipoConta);
+    public ContaCorrente(Persoa titular, double saldo, String iban, TipoConta tipoConta) {
+        super(titular, saldo, iban, tipoConta);
     }
 
     

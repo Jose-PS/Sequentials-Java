@@ -20,10 +20,6 @@ public class Menu {
     private String validas;
     private Direccion direccion = Direccion.VERTICAL;
 
-    public Menu(String titulo, String[] opcions) {
-        this.titulo = titulo;
-        this.opcions = opcions;
-    }
     
     
 
@@ -54,22 +50,14 @@ public class Menu {
         this.validas = validas;
     }
 
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public String[] getOpcions() {
-        return opcions;
-    }
-    
-    
+     
 
     private void showMenu() {
         String opt;
         System.out.print(titulo);
         salta();
         for (int i = 0; i < opcions.length; i++) {
-            System.out.println(opcions[i]);
+            System.out.print(opcions[i]);
             salta();
         }
     }
@@ -81,7 +69,7 @@ public class Menu {
             showMenu();
             opt = lec.nextLine();
         } while (!validas.contains(opt));
-        return opt.charAt(0);
+        return opt.toLowerCase().charAt(0);
     }
 
     public void salta() {

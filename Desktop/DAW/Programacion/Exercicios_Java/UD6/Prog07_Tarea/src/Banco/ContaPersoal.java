@@ -14,8 +14,8 @@ public class ContaPersoal extends ContaCorrente {
 
     private double comisionMant;
 
-    public ContaPersoal(Persoa titular, double saldo, String numCuenta, double comisionMant, TipoConta tipoConta) {
-        super(titular, saldo, numCuenta, tipoConta);
+    public ContaPersoal(Persoa titular, double saldo, String iban, double comisionMant, TipoConta tipoConta) {
+        super(titular, saldo, iban, tipoConta);
         this.comisionMant = comisionMant;
     }
 
@@ -24,7 +24,7 @@ public class ContaPersoal extends ContaCorrente {
     @Override
     public String devolverInfoString() {
         return "Titular: " + titular.devolverInfoString() + "\n"
-                + "Numero: " + numCuenta + ", Comision Mantemento: " + comisionMant+ "Tipo de conta: " + tipoConta+", Saldo: "+saldo;
+                + "Numero: " + iban + ", Comision Mantemento: " + comisionMant+ "Tipo de conta: " + tipoConta+", Saldo: "+saldo;
     }
 
 }
