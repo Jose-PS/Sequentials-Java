@@ -55,6 +55,8 @@ public class Menu  {
                             for(Noticia ne:list){
                                 System.out.println(ne);
                             }
+                            System.out.println("Que noticia queres ver?");
+                            mostraNoticia(Integer.parseInt(lec.nextLine()));
                             break;
                         case 3:
                             break;
@@ -69,4 +71,9 @@ public class Menu  {
             Logger.getLogger(Menu.class.getName()).log(Level.SEVERE, null, ex);
         }
 }
+
+    private static void mostraNoticia(int pos) throws FileNotFoundException {
+        Noticia n=new ArquivoNoticias().getNoticia(pos);
+        System.out.println(n.getTitular()+"\n"+n.getEntradilla()+"\n"+n.getCorpo());  
+    }
 }

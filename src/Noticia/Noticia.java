@@ -29,9 +29,7 @@ public class Noticia {
 
     public void setPos(int pos) {
         this.pos = pos;
-    }
-    
-    
+    }   
 
     public String getTitular() {
         return titular;
@@ -59,7 +57,7 @@ public class Noticia {
 
     @Override
     public String toString() {
-        return "Noticia{" + "titular=" + titular + ", entradilla=" + entradilla + '}';
+        return "["+pos+"]"+" "+titular+"\n"+entradilla;
     }
     
     

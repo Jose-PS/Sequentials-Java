@@ -12,8 +12,6 @@ import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -139,5 +137,15 @@ public class ArquivoNoticias implements Iterable<Noticia>, AutoCloseable {
         n.setCorpo(nDetails.readUTF());
         return (ok == 0);
     }
+    
+    public Noticia getNoticia (int pos){
+        for(Noticia n:this){
+            if (n.getPos()==pos){
+            return n;
+            }
+        }
+        return null;
+    }
+    
 
 }
